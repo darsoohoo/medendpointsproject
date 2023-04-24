@@ -1,5 +1,5 @@
 [build]
-    base = "myendpointsproject/"
+    publish = "/"
 
     [[edge_functions]]
         path = "/hello"
