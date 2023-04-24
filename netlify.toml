@@ -1,6 +1,5 @@
 [build]
     base = "myendpointsproject/"
-    command = "echo 'default context'"
 
 [[edge_functions]]
     path = "/hello"
