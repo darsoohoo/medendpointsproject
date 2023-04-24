@@ -1,6 +1,5 @@
 [build]
     base = "myendpointsproject/"
-    publish = "build-output/"
     command = "echo 'default context'"
 
 [[edge_functions]]
