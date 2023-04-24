@@ -1,10 +1,10 @@
 [build]
     base = "myendpointsproject/"
 
-[[edge_functions]]
-    path = "/hello"
-    function = "hello"
+    [[edge_functions]]
+        path = "/hello"
+        function = "hello"
 
-[[edge_functions]]
-    path = "/"
-    function = "accounts"
+    [[edge_functions]]
+        path = "/"
+        function = "accounts"
