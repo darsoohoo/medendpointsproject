@@ -119,7 +119,6 @@ function sign(str, secret) {
 
   
       
-    
     return new Response(JSON.stringify(responseData), {
         header:{
             "context-type":"application/json",
